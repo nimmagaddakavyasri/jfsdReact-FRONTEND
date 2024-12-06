@@ -1,0 +1,131 @@
+/* src/component/student/styleStudent/StudentHome.css */
+
+.student-home {
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    padding: 20px;
+    background-color: #f0f4f8; /* Light background color */
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Dark background */
+    padding: 10px 20px;
+    color: white;
+    border-radius: 5px; /* Rounded corners for the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 1.8rem; /* Larger title */
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar nav ul li {
+    margin: 0;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #495057; /* Slightly lighter on hover */
+}
+
+/* Logout Button Styles */
+.logout-button {
+    background-color: #dc3545; /* Bootstrap danger color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #c82333; /* Darker shade on hover */
+}
+
+/* Main Content Styles */
+.content {
+    display: flex; /* Use flexbox to arrange dashboard and sidebar */
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    flex: 1; /* Allow dashboard to take available space */
+    padding: 20px;
+    background-color: #ffffff; /* White background for content */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+    margin-top: 0;
+    font-size: 1.6rem; /* Slightly larger heading */
+    color: #343a40; /* Dark text color */
+}
+
+/* Sidebar Styles */
+.student-sidebar {
+    width: 250px; /* Fixed width for the sidebar */
+    margin-left: 20px;
+    background-color: #ffffff; /* White background for sidebar */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.student-sidebar h2 {
+    margin-top: 0;
+    font-size: 1.5rem; /* Slightly larger heading */
+    color: #343a40; /* Dark text color */
+}
+
+.student-sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.student-sidebar ul li {
+    margin: 15px 0; /* Increased margin for better spacing */
+}
+
+.student-sidebar ul li a {
+    text-decoration: none;
+    color: #007bff; /* Primary color for links */
+    font-size: 1rem; /* Consistent font size */
+    transition: color 0.3s;
+}
+
+.student-sidebar ul li a:hover {
+    color: #0056b3; /* Darker color on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; /* Stack sidebar and dashboard */
+    }
+
+    .student-sidebar {
+        width: 100%; /* Full width on smaller screens */
+        margin-left: 0; /* Remove left margin */
+    }
+}

@@ -1,0 +1,17 @@
+.counter {
+    text-align: center;
+    margin: 20px 0;
+    font-family: Arial, sans-serif; /* Use your preferred font */
+  }
+  
+  .counter h2 {
+    font-size: 2.5em; /* Counter number size */
+    color: #2c3e50; /* Dark color for contrast */
+    margin: 0;
+  }
+  
+  .counter p {
+    font-size: 1.2em; /* Label size */
+    color: #34495e; /* Slightly lighter color */
+  }
+  

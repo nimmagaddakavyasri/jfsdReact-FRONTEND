@@ -1,0 +1,80 @@
+/* AdminHome.css */
+
+/* General layout */
+.admin-home-container {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 250px;
+    background-color: #c22c69 ;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    height: 100%;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 20px;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #e5acc3;
+  }
+  
+  /* Main content styles */
+  .main-content {
+    margin-left: 250px;  /* Width of the sidebar */
+    padding: 20px;
+    box-sizing: border-box;
+    flex: 1;
+  }
+  .admin-home-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+  
+  .main-content {
+    margin-left: 220px;  /* Adjust based on the width of your sidebar */
+    padding: 20px;
+  }
+  
+  .main-content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+  }
+  

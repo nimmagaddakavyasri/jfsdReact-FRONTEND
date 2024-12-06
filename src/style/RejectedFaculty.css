@@ -1,0 +1,68 @@
+/* RejectedFaculty.css */
+
+.rejected-faculty-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #2c3e50;
+}
+
+.rejected-faculty-content {
+  flex-grow: 1;
+  margin-left: 260px; /* Ensure alignment with sidebar */
+  padding: 20px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+}
+
+.faculty-table {
+  width: 90%;
+  margin-left: 20px; /* Adjust to align table */
+  margin-top: 40px; /* Add space below the back button */
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-table th,
+.faculty-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.faculty-table th {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.faculty-table td {
+  color: #333;
+}
+
+.faculty-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.back-button {
+  position: fixed; /* Fix the position to always stay at the top */
+  top: 10px; /* Adjust the button to the top */
+  left: 270px; /* Ensure alignment beside the sidebar */
+  cursor: pointer;
+  z-index: 10; /* Ensure it stays above other content */
+}
+
+.back-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+}

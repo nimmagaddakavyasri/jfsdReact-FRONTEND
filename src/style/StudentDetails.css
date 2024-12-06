@@ -1,0 +1,36 @@
+/* StudentDetails.css */
+
+.student-details-page {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f9f9fb;
+    color: #333;
+  }
+  
+  .sidebar {
+    width: 250px;
+  }
+  
+  .student-details-content {
+    flex: 1;
+    padding: 30px;
+    margin-left: 20px; /* Space between sidebar and content */
+  }
+  
+  .student-details-content h1 {
+    font-size: 2em;
+    color: #34495e;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  .student-details-content p {
+    font-size: 1.1em;
+    margin: 10px 0;
+  }
+  
+  .student-details-content img {
+    margin-top: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

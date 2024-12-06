@@ -1,0 +1,79 @@
+.manage-teachers {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .teacher-summary-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .summary-card {
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .pending {
+    background-color: #ffa500; /* Orange for pending */
+  }
+  
+  .accepted {
+    background-color: #4CAF50; /* Green for accepted */
+  }
+  
+  .rejected {
+    background-color: #f44336; /* Red for rejected */
+  }
+  
+  .manage-teachers-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 20%; /* Fixed width for sidebar */
+    min-width: 200px; /* Ensure a minimum width for smaller screens */
+    background-color: #f4f4f4; /* Sidebar background color */
+    height: 100vh; /* Full viewport height */
+    position: fixed; /* Make the sidebar fixed */
+    top: 0;
+    left: 0;
+  }
+  
+  .manage-teachers-content {
+    margin-left: 20%; /* Leave space for the sidebar */
+    width: 80%; /* Remaining space for content */
+    padding: 20px; /* Add padding for better visuals */
+    box-sizing: border-box;
+  }
+  
+  .teacher-summary-cards {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .summary-card {
+    flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  }
+  
+  .summary-card.pending {
+    background-color: #a4db5b;
+  }
+  
+  .summary-card.accepted {
+    background-color: #e6ffe6;
+  }
+  
+  .summary-card.rejected {
+    background-color: #ffe6e6;
+  }
+  

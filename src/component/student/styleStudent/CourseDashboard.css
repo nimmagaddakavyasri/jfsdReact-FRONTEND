@@ -1,0 +1,85 @@
+/* src/component/student/styleStudent/CourseDashboard.css */
+
+.course-dashboard {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #0073e6;
+  }
+  
+  .course-info h2 {
+    font-size: 1.5em;
+    color: #00509e;
+  }
+  
+  .course-info p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  
+  .section-title {
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #00509e;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+  }
+  
+  .modules-list, .links-list, .learning-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .module-item, .link-item, .learning-list li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .module-item strong, .link-item a {
+    font-weight: bold;
+    color: #0073e6;
+  }
+  
+  .link-item a:hover {
+    text-decoration: underline;
+  }
+  
+  .back-button {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #0073e6;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #00509e;
+  }
+  
+  .loading {
+    color: #666;
+    font-style: italic;
+    text-align: center;
+  }
+  

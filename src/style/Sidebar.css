@@ -1,0 +1,37 @@
+.sidebar {
+    width: 200px;              /* Width of the sidebar */
+    background-color:  pink ;   /* Background color */
+    color: white;              /* Text color */
+    padding: 20px;             /* Padding inside the sidebar */
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 20px; 
+    color: white;       /* Space below the header */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;      /* Remove bullets */
+    padding: 0;                 /* Remove default padding */
+  }
+  
+  .sidebar li {
+    margin: 10px 0;            /* Space between list items */
+  }
+  
+  .sidebar a {
+    color: rgb(249, 249, 249);              /* Link color */
+    text-decoration: none;     /* Remove underline */
+    font-size: 16px;          /* Base font size */
+    padding: 5px 10px;        /* Add padding for better clickability */
+    border-radius: 4px;       /* Rounded corners for hover effect */
+    transition: background-color 0.3s, font-size 0.3s; /* Smooth transition for background and font size */
+  }
+  
+  .sidebar a:hover {
+    text-decoration: underline; /* Underline on hover */
+    background-color: rgba(255, 255, 255, 0.2); /* Light background color on hover */
+    font-size: 24px;            /* Increase font size on hover */
+  }
+  
+  

@@ -1,0 +1,79 @@
+/* src/component/student/styleStudent/CourseDetails.css */
+
+.course-details {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .course-details h1 {
+    font-size: 2rem;
+    color: #333;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .course-details p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    color: #555;
+  }
+  
+  .course-details p strong {
+    color: #a71a71;
+    font-weight: 600;
+  }
+  
+  .course-details p:nth-of-type(1) {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .course-details p {
+    line-height: 1.6;
+  }
+  
+  .course-details .highlight {
+    color: #a10e6b;
+    font-weight: 600;
+  }
+  
+  @media (max-width: 768px) {
+    .course-details {
+      padding: 1.5rem;
+    }
+  
+    .course-details h1 {
+      font-size: 1.8rem;
+    }
+  
+    .course-details p {
+      font-size: 0.95rem;
+    }
+  }
+
+  /* src/component/student/styleStudent/CourseDetails.css */
+
+.register-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
