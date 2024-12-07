@@ -129,3 +129,18 @@ input:focus {
 input::placeholder {
   color: #aaa;
 }
+.password-message {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.password-message.valid {
+  color: green;
+  text-size-adjust: 1px;
+}
+
+.password-message.invalid {
+  color: red;
+  text-size-adjust: 1px;
+}

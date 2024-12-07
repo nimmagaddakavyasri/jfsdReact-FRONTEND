@@ -22,6 +22,8 @@ const TeacherLogin = () => {
       setMessage(response.data);
 
       if (response.data === "Teacher login successful") {
+        // Store the email in local storage
+        localStorage.setItem('teacherEmail', email);
         navigate("/TeacherHome");
       }
     } catch (error) {

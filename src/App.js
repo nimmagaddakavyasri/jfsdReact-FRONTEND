@@ -27,6 +27,11 @@ import RejectedFaculty from './component/admin/RejectedFaculty';
 import MyCourses from './component/student/MyCourses';
 import TeacherHome from './component/teacher/TeacherHome';
 import StudentProfile from './component/student/StudentProlile';
+import Assignments from './component/student/Assignments';
+import SubmitAssignment from './component/student/SubmitAssignment';
+import Courses from './component/teacher/Courses';
+import TeacherProfile from './component/teacher/TeacherProfile';
+import AssignmentDetails from './component/student/AssignmentDetails';
 
 function App() {
   return (
@@ -58,8 +63,13 @@ function App() {
           <Route path="/student/profile" element={<StudentProfile />} />
           <Route path="/course/details/:courseId" element={<CourseDetails />} />
           <Route path="/course-dashboard/:courseId" element={<CourseDashboard />} />
-
+          <Route path="/assignments" element={<Assignments />} />
           <Route path="/TeacherHome" element={<TeacherHome />} />
+          <Route path="/teacher/courses" element={<Courses />} />
+          <Route path="/teacher/profile" element={<TeacherProfile />} />
+         
+          <Route path="/assignments" element={<Assignments />} />
+          <Route path="/assignment-details/:id" element={<AssignmentDetails />} />
         </Routes>
       </div>
     </Router>

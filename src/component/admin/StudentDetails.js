@@ -63,6 +63,17 @@ const StudentDetails = () => {
             style={{ width: '100px', height: '100px', borderRadius: '50%' }}
           />
         )}
+        {/* Display CV file link */}
+        {student.cvFilePath ? (
+          <div>
+            <h3>Uploaded CV:</h3>
+            <a href={`http://localhost:8080/images/${student.cvFilePath}`} target="_blank" rel="noopener noreferrer">
+              View CV
+            </a>
+          </div>
+        ) : (
+          <p>No CV uploaded</p>
+        )}
         <button
           onClick={handleAccept}
           className="accept-button"

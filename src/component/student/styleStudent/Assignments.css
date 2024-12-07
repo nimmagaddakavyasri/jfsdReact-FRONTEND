@@ -1,0 +1,81 @@
+.assignments {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .assignments-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .assignments-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .assignment-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assignment-card h2 {
+    margin: 0 0 10px;
+  }
+  
+  .assignment-card p {
+    margin: 0 0 15px;
+  }
+  
+  .assignment-card button {
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .assignment-card button:hover {
+    background-color: #45a049;
+  }
+  
+  .assignments {
+    padding: 20px;
+  }
+  
+  .assignments-header {
+    text-align: center;
+  }
+  
+  .assignments-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .assignment-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .assignment-card button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .assignment-card button:hover {
+    background-color: #0056b3;
+  }
+  

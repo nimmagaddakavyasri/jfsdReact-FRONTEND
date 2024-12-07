@@ -1,0 +1,44 @@
+.submit-assignment {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .submit-assignment h1 {
+    font-size: 2rem;
+  }
+  
+  .submit-assignment h2 {
+    margin-top: 20px;
+  }
+  
+  .submit-assignment p {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .submit-assignment label {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  .submit-assignment textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  

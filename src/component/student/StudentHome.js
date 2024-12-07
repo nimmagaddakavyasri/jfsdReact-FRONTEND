@@ -37,6 +37,11 @@ const StudentHome = () => {
             <li><Link to="/assignments">Assignments</Link></li>
             <li><Link to="/student/profile">Profile</Link></li>
             <li><Link to="/student/offered-courses">Offered Courses</Link></li>
+            <li>
+  <a href="https://www.canva.com/design/DAGYoAcymwE/98iRQu5sSUbN4F7lE6m2mg/edit?referrer=resumes-landing-page" target="_blank" rel="noopener noreferrer">
+    Create Your Own Resume
+  </a>
+</li>
             <li><button className="logout-button" onClick={handleLogout}>Logout</button></li>
           </ul>
         </nav>

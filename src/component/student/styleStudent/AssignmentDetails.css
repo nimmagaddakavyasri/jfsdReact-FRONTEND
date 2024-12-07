@@ -1,0 +1,64 @@
+.assignment-details {
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .assignment-details-header {
+    margin-bottom: 20px;
+  }
+  
+  .assignment-details-header h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #343a40;
+  }
+  
+  .questions-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .questions-list ul {
+    list-style: disc;
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+  
+  .questions-list li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+  }
+  
+  .learning-content {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f0f4f8; /* Light background for contrast */
+    border-left: 5px solid #007bff; /* Highlight border */
+    border-radius: 5px;
+  }
+  
+  .learning-content h3 {
+    margin-top: 0;
+    color: #343a40; /* Dark text color */
+  }
+  
+  .learning-content ul {
+    list-style: square;
+    margin-left: 20px;
+  }
+  
+  .learning-content ul li {
+    margin: 10px 0;
+  }
+  
+  .learning-content ul li a {
+    text-decoration: none;
+    color: #007bff; /* Link color */
+    transition: color 0.3s;
+  }
+  
+  .learning-content ul li a:hover {
+    color: #0056b3; /* Darker link color on hover */
+  }
+  

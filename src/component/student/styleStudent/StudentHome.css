@@ -21,8 +21,10 @@
 .navbar h1 {
     margin: 0;
     font-size: 1.8rem; /* Larger title */
+    color: rgb(241, 238, 11); /* Ensure "studentportal" text is black */
 }
 
+/* Navbar links */
 .navbar nav ul {
     list-style: none;
     display: flex;
@@ -79,7 +81,7 @@
 .dashboard h2 {
     margin-top: 0;
     font-size: 1.6rem; /* Slightly larger heading */
-    color: #343a40; /* Dark text color */
+    color: #1f6dbc; /* Dark text color */
 }
 
 /* Sidebar Styles */
@@ -95,7 +97,7 @@
 .student-sidebar h2 {
     margin-top: 0;
     font-size: 1.5rem; /* Slightly larger heading */
-    color: #343a40; /* Dark text color */
+    color: #4795e308; /* Dark text color */
 }
 
 .student-sidebar ul {
@@ -115,7 +117,7 @@
 }
 
 .student-sidebar ul li a:hover {
-    color: #0056b3; /* Darker color on hover */
+    color: #b0bd1b; /* Darker color on hover */
 }
 
 /* Responsive Design */
